@@ -1,3 +1,3 @@
-import "./styles.css";
+import {content} from './home.js';
 
-console.log("Hello, Odinite!");
+document.addEventListener("DOMContentLoaded", content);
