@@ -4,19 +4,23 @@ export function loadHome() {
     const content = document.querySelector('#content');
 
     const restaurantName = document.createElement('h1');
-    restaurantName.textContent = 'Maan Restaurant';
+    restaurantName.textContent = 'Tasty Trails';
+
+    const container = document.createElement('div');
+    container.setAttribute('id', 'container');
 
     const image = document.createElement("img");
     image.src = cafe;
-    image.style.width = '500px';
-    image.style.height = '500px';
+    image.setAttribute('id', 'rest-image');
 
     const message = document.createElement('p');
-    message.textContent = 'We serve the best Pizza, Pasta, Noodles, and Coffee. Enjoy tasty food with aesthetic view of our restaurant. Book your place with your friends and family.'
+    message.setAttribute('id', 'message');
+    message.textContent = 'Savor the art of dining with our innovative menu, crafted from the freshest ingredients. Perfect for food lovers seeking a modern twist on classic favorites. Experience great taste, impeccable service, and a vibe that keeps you coming back.'
 
+    container.appendChild(image);
+    container.appendChild(message);
     content.appendChild(restaurantName);
-    content.appendChild(image);
-    content.appendChild(message);
+    content.appendChild(container);
 
     document.addEventListener("DOMContentLoaded", content);
 }
