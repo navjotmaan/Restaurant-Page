@@ -1,3 +1,67 @@
 body {
-    background-color: rebeccapurple;
+    background-color: #353535;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: #da2c38;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #941b0c;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #b6d67f;
+    margin: 80px;
+    letter-spacing: 10px;
+}
+
+#container {
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    align-items: center;
+}
+
+#message {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+#rest-image {
+    width: 50%;
+    border-radius: 20px;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 50px;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
 }
