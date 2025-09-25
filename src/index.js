@@ -1,6 +1,6 @@
-import {loadHome} from './home.js';
-import {loadMenu} from './menu.js';
-import { loadContact } from './contact.js';
+import {loadHome} from './modules/home.js';
+import {loadMenu} from './modules/menu.js';
+import { loadContact } from './modules/contact.js';
 
 import './styles.css';
 
