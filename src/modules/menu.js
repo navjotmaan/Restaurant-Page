@@ -14,6 +14,7 @@ export function loadMenu() {
 
     const image1 = document.createElement('img');
     image1.src = pizza;
+    image1.setAttribute('alt', 'pizza');
 
     const price1 = document.createElement('p');
     price1.classList.add('food');
@@ -26,6 +27,7 @@ export function loadMenu() {
 
     const image2 = document.createElement('img');
     image2.src = pasta;
+    image2.setAttribute('alt', 'pasta');
 
     const price2 = document.createElement('p');
     price2.classList.add('food');
@@ -38,6 +40,7 @@ export function loadMenu() {
 
     const image3 = document.createElement('img');
     image3.src = noodles;
+    image3.setAttribute('alt', 'noodles');
 
     const price3 = document.createElement('p');
     price3.classList.add('food');
@@ -50,6 +53,7 @@ export function loadMenu() {
 
     const image4 = document.createElement('img');
     image4.src = coffee;
+    image4.setAttribute('alt', 'coffee');
 
     const price4 = document.createElement('p');
     price4.classList.add('food');
@@ -62,6 +66,7 @@ export function loadMenu() {
 
     const image5 = document.createElement('img');
     image5.src = burger;
+    image5.setAttribute('alt', 'burger');
 
     const price5 = document.createElement('p');
     price5.classList.add('food');
@@ -74,6 +79,7 @@ export function loadMenu() {
 
     const image6 = document.createElement('img');
     image6.src = shake;
+    image6.setAttribute('alt', 'shake');
 
     const price6 = document.createElement('p');
     price6.classList.add('food');

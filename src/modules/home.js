@@ -12,6 +12,7 @@ export function loadHome() {
     const image = document.createElement("img");
     image.src = cafe;
     image.setAttribute('id', 'rest-image');
+    image.setAttribute('alt', 'cafe');
 
     const message = document.createElement('p');
     message.setAttribute('id', 'message');
