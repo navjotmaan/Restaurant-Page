@@ -12,7 +12,7 @@ nav {
 
 button {
     background-color: #da2c38;
-    border-radius: 20px;
+    border-radius: 50px;
     border: none;
     padding: 10px 40px;
     color: white;
@@ -56,12 +56,36 @@ h1 {
 #items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 50px;
+    grid-template-rows: repeat(3, 700px);
+    margin-top: 100px;
 }
 
 img {
-    width: 70%;
-    height: 70%;
-    object-fit: contain;
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#contact {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.credits {
+    color: #585555;
+    margin-right: 600px;
+}
+
+a {
+    color: #636060;
+    text-decoration: none;
+}
+
+.food {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #b6d67f;
 }
