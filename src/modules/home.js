@@ -1,4 +1,4 @@
-import cafe from './images/cafe.jpg';
+import cafe from '../images/cafe.jpg';
 
 export function loadHome() {
     const content = document.querySelector('#content');

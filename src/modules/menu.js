@@ -1,9 +1,9 @@
-import pizza from './images/pizza.jpg';
-import pasta from './images/pasta.jpg';
-import noodles from './images/noodles.jpg';
-import coffee from './images/coffee.jpg';
-import burger from './images/burger.jpg';
-import shake from './images/shake.jpg';
+import pizza from '../images/pizza.jpg';
+import pasta from '../images/pasta.jpg';
+import noodles from '../images/noodles.jpg';
+import coffee from '../images/coffee.jpg';
+import burger from '../images/burger.jpg';
+import shake from '../images/shake.jpg';
 
 export function loadMenu() {
     const menu = document.querySelector('#content');
